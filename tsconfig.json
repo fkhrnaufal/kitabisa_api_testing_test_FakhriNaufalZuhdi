@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                     // Target modern JavaScript
+      "module": "CommonJS",                // Use CommonJS modules for compatibility with Node.js
+      "strict": true,                      // Enable all strict type-checking options
+      "esModuleInterop": true,             // Allow default imports from CommonJS modules
+      "moduleResolution": "Node",          // Resolve modules like Node.js
+      "outDir": "./dist",                  // Output directory for compiled files
+      "rootDir": "./src",                  // Root directory for TypeScript source files
+      "forceConsistentCasingInFileNames": true, // Ensure consistent file naming
+      "skipLibCheck": true                 // Skip type checking for library declaration files
+    },
+    "include": ["src/**/*"],               // Include all files in the `src` folder
+    "exclude": ["node_modules", "dist"]    // Exclude `node_modules` and `dist` folders
+}

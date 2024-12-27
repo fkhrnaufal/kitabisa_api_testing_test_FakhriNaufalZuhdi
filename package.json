@@ -1,0 +1,24 @@
+{
+  "name": "kitabisa_api_testing_reqres",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register src/tests/**/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/chai-http": "^4.2.4",
+    "@types/mocha": "^10.0.10",
+    "chai": "^4.5.0",
+    "chai-http": "^4.4.0",
+    "cross-env": "^7.0.3",
+    "mocha": "^11.0.1",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
